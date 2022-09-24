@@ -1,0 +1,113 @@
+#imp {
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial";
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}
+
+#hero {
+  background-image: url(https://images.unsplash.com/photo-1580968668595-57ce9c12e1d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+.hero-text {
+  color: white;
+  background: #1d3557;
+  border-radius: 10px;
+  padding: 10px;
+  width: 225px;
+  height: 37px;
+}
+.hero-text-2 {
+  color: white;
+  background-color: #457b9d;
+  width: 412px;
+  height: 45px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.main-acti {
+  background: #f1faee;
+}
+.activities {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.acti {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+}
+.activity-text {
+  display: flex;
+  justify-content: space-between;
+}
+.title-act {
+  width: 250px;
+  color: #1d3557;
+  margin: 10px auto;
+}
+.para-text {
+  display: flex;
+  justify-content: space-around;
+}
+.parag {
+  width: 250px;
+  text-align: center;
+  margin-bottom: 30px;
+
+  color: #1d3557;
+}
+.guide {
+  background: #ffffff;
+}
+.rectangle {
+  width: 500px;
+  height: 294px;
+  display: flex;
+  background: #a8dadc;
+  box-shadow: 0px 6px 0px #1d3557;
+  border-radius: 10px;
+  margin: 50px auto;
+}
+
+.rect-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  color: #1d3557;
+  width: 350px;
+}
+.bird {
+  display: block;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 15%;
+}
+.guide-info {
+  font-style: italic;
+  text-align: center;
+}
+.guide-title {
+  text-align: center;
+  margin-top: 50px;
+}
