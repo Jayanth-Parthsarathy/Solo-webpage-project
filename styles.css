@@ -1,7 +1,7 @@
 #imp {
   display: flex;
   flex-direction: column;
-  font-family: "Arial";
+  font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -22,6 +22,10 @@ img {
   align-items: center;
   justify-content: center;
   height: auto;
+  transition: 0.5s;
+}
+#hero:hover {
+  background: url(https://i.pinimg.com/736x/33/72/09/337209ef94dd3a46aac7f5e16d71b845--quote-backgrounds-chennai.jpg);
 }
 .hero-text {
   color: white;
@@ -30,7 +34,9 @@ img {
   padding: 10px;
   width: 225px;
   height: 37px;
+  transition: 0.5s;
 }
+
 .hero-text-2 {
   color: white;
   background-color: #457b9d;
@@ -40,6 +46,11 @@ img {
   padding: 10px;
   padding-bottom: 20px;
   margin-bottom: 20px;
+  transition: 0.5s;
+}
+.hero-text:hover,
+.hero-text-2:hover {
+  scale: 1.1;
 }
 .main-acti {
   background: #f1faee;
@@ -56,6 +67,10 @@ img {
   width: 100px;
   height: 100px;
   margin-top: 50px;
+  transition: 0.5s;
+}
+.acti:hover {
+  scale: 1.1;
 }
 .activity-text {
   display: flex;
@@ -74,8 +89,9 @@ img {
   width: 250px;
   text-align: center;
   margin-bottom: 30px;
-
-  color: #1d3557;
+  text-shadow: 5 5 5px black;
+  font-weight: 600;
+  color: #161618;
 }
 .guide {
   background: #ffffff;
@@ -102,10 +118,15 @@ img {
   width: fit-content;
   padding: 20px;
   border-radius: 15%;
+  transition: 0.5s;
+}
+.bird:hover {
+  scale: 1.1;
 }
 .guide-info {
   font-style: italic;
   text-align: center;
+  font-weight: 700;
 }
 .guide-title {
   text-align: center;
